@@ -1,0 +1,80 @@
+
+C:\jdk1.7.0\bin>javac StudData.java
+
+C:\jdk1.7.0\bin>java StudData
+
+===== STUDENT MANAGEMENT SYSTEM =====
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter your choice: 1
+Enter ID: 01
+Enter Name: rudr
+Enter Age: 21
+Enter Course: IT
+Student added successfully!
+
+===== STUDENT MANAGEMENT SYSTEM =====
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter your choice: 2
+
+--- Student Records ---
+ID: 1 | Name: rudr | Age: 21 | Course: IT
+
+===== STUDENT MANAGEMENT SYSTEM =====
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter your choice: 3
+Enter Student ID to Update: 01
+Enter new name: Ram
+Enter new age: 32
+Enter new course: Computer
+Record updated successfully!
+
+===== STUDENT MANAGEMENT SYSTEM =====
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter your choice: 2
+
+--- Student Records ---
+ID: 1 | Name: Ram | Age: 32 | Course: Computer
+
+===== STUDENT MANAGEMENT SYSTEM =====
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter your choice: 4
+Enter Student ID to Delete: 01
+Student deleted successfully!
+
+===== STUDENT MANAGEMENT SYSTEM =====
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter your choice: 2
+No student records found!
+
+===== STUDENT MANAGEMENT SYSTEM =====
+1. Add Student
+2. View All Students
+3. Update Student
+4. Delete Student
+5. Exit
+Enter your choice: 4
+Enter Student ID to Delete:
