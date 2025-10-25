@@ -1,0 +1,28 @@
+C:\jdk1.7.0\bin>javac NotesManager.java
+
+C:\jdk1.7.0\bin>java NotesManager
+
+===== Notes Manager =====
+1. Write a new note
+2. Read all notes
+3. Exit
+Enter your choice: 1
+Enter your note: hello java world
+Note saved successfully!
+
+===== Notes Manager =====
+1. Write a new note
+2. Read all notes
+3. Exit
+Enter your choice: 2
+
+===== Saved Notes =====
+- dfdf
+- hello java world
+
+===== Notes Manager =====
+1. Write a new note
+2. Read all notes
+3. Exit
+Enter your choice: 3
+Exiting... Goodbye!
