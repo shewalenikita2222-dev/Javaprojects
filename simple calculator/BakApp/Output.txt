@@ -1,0 +1,78 @@
+The system cannot find message text for message number 0x2350 in the message file for Application.
+
+(c) Microsoft Corporation. All rights reserved.
+
+C:\jdk1.7.0\bin>javac BankApp.java
+BankApp.java:14: illegal start of type
+        this.transactions = new ArrayList<>();
+                                          ^
+1 error
+
+C:\jdk1.7.0\bin>javac BankApp.java
+
+C:\jdk1.7.0\bin>java BankApp
+Enter Account Number: 1425345
+Enter Account Holder Name: om
+Enter Initial Balance: 1000
+
+=== BANK MENU ===
+1. Deposit
+2. Withdraw
+3. Show Balance
+4. Transaction History
+5. Exit
+Enter your choice: 1
+Enter deposit amount: 200
+ Deposit successful!
+
+=== BANK MENU ===
+1. Deposit
+2. Withdraw
+3. Show Balance
+4. Transaction History
+5. Exit
+Enter your choice: 3
+ Current Balance: Γé╣1200.0
+
+=== BANK MENU ===
+1. Deposit
+2. Withdraw
+3. Show Balance
+4. Transaction History
+5. Exit
+Enter your choice: 2
+Enter withdrawal amount: 500
+ Withdrawal successful!
+
+=== BANK MENU ===
+1. Deposit
+2. Withdraw
+3. Show Balance
+4. Transaction History
+5. Exit
+Enter your choice: 3
+ Current Balance: Γé╣700.0
+
+=== BANK MENU ===
+1. Deposit
+2. Withdraw
+3. Show Balance
+4. Transaction History
+5. Exit
+Enter your choice: 4
+
+ Transaction History for om:
+- Account created with initial balance: Γé╣1000.0
+- Deposited: Γé╣200.0 | Balance: Γé╣1200.0
+- Withdrawn: Γé╣500.0 | Balance: Γé╣700.0
+
+=== BANK MENU ===
+1. Deposit
+2. Withdraw
+3. Show Balance
+4. Transaction History
+5. Exit
+Enter your choice: 5
+ Thank you for banking with us!
+
+C:\jdk1.7.0\bin>
